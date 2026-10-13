@@ -34,7 +34,7 @@
     }
   ],
   "resnet": "on hold",
-  "github": "Public repository created; source, release assets and Pages publication in progress",
+  "github": "Published: public repository, v0.1 release with eight verified assets, and live GitHub Pages",
   "paper_results": 540,
   "training": "not executed",
   "local_links": "passed",
@@ -42,7 +42,7 @@
   "powershell_syntax": "passed",
   "label_preparation": "passed synthetic semantic remapping; sample order unchanged",
   "metrics": "passed macro known-class / unknown harmonic mean check",
-  "browser_QA": "Not performed: local preview access was denied by browser security policy",
+  "browser_QA": "Passed on public GitHub Pages: 540 result configurations render; HuBERT filter gives 108; reset restores 540; four active download links point to published assets",
   "release_integrity": "SHA256 and ZIP CRC verification performed for four active packages",
   "original_source_files": 55,
   "generated_dispatchers": 0,
@@ -56,5 +56,6 @@
   "removed_previous_model_files": 101,
   "formatting": "53 model code files formatted; executable structures preserved",
   "english_documentation": "134 Chinese/corrupted comments and docstrings rewritten; English comments/docstrings checked",
-  "active_data_manifest_files": 64
+  "active_data_manifest_files": 64,
+  "publication_report": "https://github.com/931910562/os-cc-ser-benchmark/releases/tag/v0.1"
 }
