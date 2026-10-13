@@ -1,0 +1,13 @@
+# Shared dependencies inferred from retained source imports; not an original lockfile.
+numpy
+scipy
+scikit-learn
+torch
+torchvision
+tensorboard
+h5py
+pandas
+matplotlib
+seaborn
+Pillow
+ipython

@@ -1,0 +1,436 @@
+{
+  "formatted_code_files": 53,
+  "translated_comments_and_docstrings": 134,
+  "python_formatter": "Black 26.10.1, line_length=88, string_normalization=False",
+  "shell_formatter": "v3.14.1, Bash, 4 spaces, no simplify",
+  "matlab_formatter": "Leading indentation, blank lines and full-line comments only",
+  "licenses": "Unchanged",
+  "training": "Not executed; static behavior-preservation checks only",
+  "files": [
+    {
+      "path": "models/ANNA/dataloader_pt.py",
+      "source_sha256": "a532aeb238b3ed578b69980d528c35226a565572d61ff3b32ffffbeebed3ba5f",
+      "formatted_sha256": "3a63bff0e6db98129a6af1d6fdc588db06f058c72039b2617d388a5f485d4456",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/ANNA/models_npy.py",
+      "source_sha256": "52aceddd511a439086142499442459708ef76824e1172fe65eb490eddc05c4d9",
+      "formatted_sha256": "b0e162dbb6d65b19b09ba6fd4f9208bc4f60262d8b7e48a8f990fce02673289e",
+      "translated_notes": 8,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/ANNA/run_re.sh",
+      "source_sha256": "2ad954857ff8a5016eb5e68bc1a7b0edc3a480275e5949743857bb12c342615e",
+      "formatted_sha256": "b7c940da9de6ab9148c6eef8de0f8f8b9a78fba2a815e082143f59d570decc92",
+      "translated_notes": 8,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/ANNA/train.py",
+      "source_sha256": "e05ca6e51801c4f0872ad293d90c958bc222c38b52bc455c99f61fd972374d6c",
+      "formatted_sha256": "1a1eb695e91ddd2176f9822cb2f58a28269484ddfa4eb269c6ddfd80ce712363",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/ANNA/utils.py",
+      "source_sha256": "50792675256e4ba98fb6869d37007ea0b9360f0b1d91a845b3fb21810f4b1cff",
+      "formatted_sha256": "d7861e9784e2d40d4731497cea72f93467639bf40e3a6f473c1d9ddd123b08a5",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/BCL/hsic.py",
+      "source_sha256": "0ddc77457b5b9f2beb42c135094bbcf17ba2fa524e29f5c17dd4691ccd825e3c",
+      "formatted_sha256": "6f2de7f0107fb91c0bad54fcbd0ae6f8303379a5b9a7413a725faa1b41343bfb",
+      "translated_notes": 9,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/BCL/run1.sh",
+      "source_sha256": "361b9c8ef39cffe3a933a888ae8f14d121a092a4d670e9381cd461bae1eb811e",
+      "formatted_sha256": "2865c750c8b5779949a9fd49c19c87b13bb1099797376ce7f68805026549b55e",
+      "translated_notes": 3,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/BCL/train.py",
+      "source_sha256": "676109b5a3619b220035d73a5b98c33ac8ae116645afee98b5cc20613be8fbd0",
+      "formatted_sha256": "db3e422eecc27792f660e3f9ba92c602ac2533a9d07f56b7f098b4911b2833e1",
+      "translated_notes": 2,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/DAOD.m",
+      "source_sha256": "c30e96384a6816effe9bc4d91a5ed708316fc0143fd53c4a016346da384d4c6e",
+      "formatted_sha256": "7a8250d544cfe2247916975ba867acf800ee8ed307b31d87628e82f69fd3d68e",
+      "translated_notes": 0,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/estimate_mu.m",
+      "source_sha256": "343e786939823e16b652aa67f9645f1517ad5f4008d3da0d06e49ef30fac5743",
+      "formatted_sha256": "e3d90fb44df3ebfdca939518aad3cd433a1c8c9f6227812d205f0f0094854081",
+      "translated_notes": 6,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/lapgraph.m",
+      "source_sha256": "c94fc1f3b6140f7bfb08a62845576e1c585e8c8d295e36e1b7b074ad8f3eb9b5",
+      "formatted_sha256": "7c530a49ff39b21300ac29def35769826312029a850f576dcd7ce125c6f03c9f",
+      "translated_notes": 0,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/load_feature_mat.m",
+      "source_sha256": "e90f192d1d8e74cce08ae25ca5a868b61021acfd47cdcb3e4f5896d817bf4064",
+      "formatted_sha256": "e26206ef69a83eb0548b02ca9a4a26fc1984efc66828279a8b7838fc571132fb",
+      "translated_notes": 0,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/OSNNcv.m",
+      "source_sha256": "562121a856c523108a0181fed214bb2e7da310aef3bc474fecc138ccc8c65ac0",
+      "formatted_sha256": "6888806afb5e94ed048c70376c989e6ca6f2c454794930e208502da6e397ac08",
+      "translated_notes": 0,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/run1.m",
+      "source_sha256": "e9573a1eb366b2ba1b4bdec9da10d4f9fdfce405973fc06be34d33cb9a204a2b",
+      "formatted_sha256": "fc30ec76678de5bd8c27e984c65567517295459ac862dda72548ea2ce4bcede2",
+      "translated_notes": 0,
+      "behavior_check": "Non-comment MATLAB code lines identical after trimming indentation",
+      "passed": true
+    },
+    {
+      "path": "models/DAOD/script_20260701151306.sh",
+      "source_sha256": "1d945b8b9f7c99d675ef145dfabd8e84827bc8ebee9d297382415532336dfb07",
+      "formatted_sha256": "419e923af7ee07b546bf44cda7b40e94a477fdaa0dbb3f36a1ae671901053a17",
+      "translated_notes": 0,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/OCSVM/ocsvm_baseline.py",
+      "source_sha256": "d62f20b246c9a670393e552666a9a42902c0c1d762311bd57866122ad1b9b3c6",
+      "formatted_sha256": "3aeeb6e2834d3985c554ceef89a3b132c32595db498b2e4301b377086ed97d94",
+      "translated_notes": 5,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OCSVM/run.sh",
+      "source_sha256": "64ce8e72eda868bbebf52b6b81c0de017357d8284cf58d3f4d6395735cfbaf7b",
+      "formatted_sha256": "9945c216f68b24845b3f6eb4748b30b1e37fed7a95ba95a64aef75f66fad4b2c",
+      "translated_notes": 0,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/data_loader/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "formatted_sha256": "6356e7e8b5150a3522a8e25276ec786431c897917d1b0b6be39e0f5e4636f43d",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/data_loader/dataloader.py",
+      "source_sha256": "0b35d93da62f30dcd32fa7f3f436675ea2712f34613e8837a3dad5abde843cc3",
+      "formatted_sha256": "9a983fb068a8a70c4cce4c3c932d2535b57bf16f882d70cf8b983364b295acc2",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "formatted_sha256": "6356e7e8b5150a3522a8e25276ec786431c897917d1b0b6be39e0f5e4636f43d",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/models/basenet.py",
+      "source_sha256": "eb3413e97174ac34bf0b1750ba888e421f7875277d0857d966cc3e462699262c",
+      "formatted_sha256": "c5c6bf105fb308217a2b5fda372d5e3719e3a8e9182c20de3af45eeac5b9294f",
+      "translated_notes": 6,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/train1.py",
+      "source_sha256": "d29570758ecfc81f067158ea429c8c34a46f11415a04c07494a81ee603a8aa15",
+      "formatted_sha256": "1f1b29c08223a444ca93a275e19b769896603ddb1e0d2d0a77e57d772224d840",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/train1.sh",
+      "source_sha256": "852ce8c68ed871a1dc697dd4d828540d7f5471ddcd49aeaab1fc3b816f33bc5b",
+      "formatted_sha256": "084059452726b2b9c7b9389d8e0b7630e1055192cc2a0040a272da769f000141",
+      "translated_notes": 2,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "formatted_sha256": "6356e7e8b5150a3522a8e25276ec786431c897917d1b0b6be39e0f5e4636f43d",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/OSBP/utils/utils.py",
+      "source_sha256": "8fd58c81c71ee7288b3f83e7dda932e3abce80098d52b1bd3d9ec7db0be9db0e",
+      "formatted_sha256": "14969c66b82597281b0ab9a065bf9c5ef2893444dd1f53b6c2db7d2001d402fb",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/SDEOTR/dataloader.py",
+      "source_sha256": "a04c44626a750671d46fcf9b5ecf054f1a4b9563ec43419e753e6f236785a0a3",
+      "formatted_sha256": "f3d1e5483e603a273f8eaa77f57aeb6cf554f1efc57c5351d616629330f151ab",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/SDEOTR/models.py",
+      "source_sha256": "358a770858a40f49e8a2c61acba3be339d314f8604979bdb4f49012487437359",
+      "formatted_sha256": "4cc4a79d3d0d1c82299bca9090a523276e23189eafec6dff5b073cec0e756709",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/SDEOTR/run.sh",
+      "source_sha256": "8bde14c470fdd90811eeef6ce42910d499efa34c462e743353772ce7bf354a54",
+      "formatted_sha256": "1b380165df1027492ea399fcac8a56528cc3966f28876b4b8dd98e7f114ff572",
+      "translated_notes": 19,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/SDEOTR/train.py",
+      "source_sha256": "97cebac80a7214439e8fd82618461e526c33cac0e92bdcec7a9d10e3afb93952",
+      "formatted_sha256": "e81cffcc84fda2f6f17239c6f69d16377d7c13207a96075adba7689d982ad63e",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/SDEOTR/utils.py",
+      "source_sha256": "66906bd3790a10e10acdc7ca09e217551e5377013c90bdd29bab92db355baffe",
+      "formatted_sha256": "dba652a7d7f8346bd0d29a52b33ca3d6e4e6849e655681a34a169b865879bd96",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STA/npydataloader.py",
+      "source_sha256": "19fa454630ec600e7b4ef2d1f801ead19b68afd76797648cb85ad332a23ce9aa",
+      "formatted_sha256": "f39b5fd97cc066d606c9ab95e2c1ae0e548e19ae15003aa7b2d849b547088dbe",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STA/run3.sh",
+      "source_sha256": "330507512f82f0436f5953bcc58e0c7d5643590c725f55e51f02700ab6f4517f",
+      "formatted_sha256": "558298591e70cdd24f0450dce337fec54df6bf9fcd24609edd470262ae0681a2",
+      "translated_notes": 2,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/STA/utilities1.py",
+      "source_sha256": "1a0ce092853d61024b6f3a92919108a989d6580102f63d0456d029200c5552b9",
+      "formatted_sha256": "ae283db18a9cfdc61fd0b98f64a4327d5ba95f8c6c4538b512791dc30126a445",
+      "translated_notes": 38,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STA/wavnetworks.py",
+      "source_sha256": "e236f0af3468b0e6d0928a705f7949de853ca03aa21547ee3e995420102138b0",
+      "formatted_sha256": "7389b9fb8a2cb84a66ad6e1c0d118cfa5a07d0519c7073388995a8c796e4010e",
+      "translated_notes": 6,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STA/wavstep_1.py",
+      "source_sha256": "9ac8211567cd930f5a271603fcd13343d7f679e2280761383b93b30cca069df6",
+      "formatted_sha256": "31f2c0c8f5754643994e9215bbb8d4f80c9a3098cf9353bd2b8330a246f5dd38",
+      "translated_notes": 8,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STA/wavstep_2.py",
+      "source_sha256": "baf0c0ba69bdffb757d78713a9f9148734d06435d71e08171be172c6c6589854",
+      "formatted_sha256": "54de071e82dc30e09539173c8af4fac110e793a0ca79514a96960543acf456ed",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/DataLoader.py",
+      "source_sha256": "884c20cefed6ffb6a3f44ee45d824b738ab49294b72cbbeb9ddb334fd4bf0994",
+      "formatted_sha256": "f598a948605106e07a42156ebbfbb6ce33646f0b5a0747a91acd61a2a893de90",
+      "translated_notes": 2,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/DataLoader_w.py",
+      "source_sha256": "60fdc08784dfa8f8903005f9d7982741f9f3d19a70fdcab75fa661f869065d67",
+      "formatted_sha256": "186ecf3b8c00e5fe63d7cf8679c7e42ec505250fad8b0f3d1aa6bafaa00824f2",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/eval.py",
+      "source_sha256": "14c8676f4fb57e088480776886fec912b441e46e1bc57a8bb8d1a8f875ff6c1c",
+      "formatted_sha256": "af5ce45d78e3b0add694739094f02872af07e41ff5a96bfaa4a1412b1702291c",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/model.py",
+      "source_sha256": "61fd1ce001610f32c54e69594152eedbc69b56f891af89f484680a168299b373",
+      "formatted_sha256": "54503bea55bfa17dc49e20342dceb3e9fbb69e68e78fabbfe3d1e8036c05728f",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/run3.sh",
+      "source_sha256": "6bd78b3cadefa69a0a7bf35d7bb8b6ee03b21416d98732bfb6826aaede61d3e6",
+      "formatted_sha256": "384f0ac7e68ad542e8fbae04be9a939b5f14a6739ff152a0cbe479756d9b9318",
+      "translated_notes": 4,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/STIENet/train1.py",
+      "source_sha256": "a5ca96ede34eec897d4250a47e8f18bbcccb56291eac842eb05ef2ef3c7ba633",
+      "formatted_sha256": "4ae30dfb77c6742fd5a59bd424bf9b7e67c3c10b5cc30be25bce507200623033",
+      "translated_notes": 1,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/data_loader/dataset.py",
+      "source_sha256": "274674aade19bf3845f9e7a4d030dc935ad4719873a6b69e8f6c7e91f61e6d3b",
+      "formatted_sha256": "d5e34822036606ad6e4c0ade36c71bf2afed2e3b34b43e4b5daefde0a053acdd",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/data_loader/get_loader.py",
+      "source_sha256": "c0708f378f6e998b19847ba6858b9f77f530ec526e0ed7db69c486fed133d524",
+      "formatted_sha256": "8857947e8a752d6b8a8e3b93ff788c0f1e5f219d8e727dcf5456e1036d43a019",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/data_loader/mydataset.py",
+      "source_sha256": "9a743b2d0be64a240ef929a0abd4eb5dcfa94804986d57749ca62b6675c65a06",
+      "formatted_sha256": "f1520e42b69512c206003cc90a2ebf254b8090f369e26988ef418b96186cbc76",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/data_loader/unaligned_data_loader.py",
+      "source_sha256": "784e9244a73d637af37a9c28330123a76add5555258fa95880adb009f292785c",
+      "formatted_sha256": "683a39ece3fd77d0f458027a12073758531bcfa2e83033c1d716e5176b98621b",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/models/basenet1.py",
+      "source_sha256": "1383331c8dc7b45368de7c3e7b7fd342fc5680cd32549fc752eaabdfabf6fd12",
+      "formatted_sha256": "cb8ae978e72f95fc4229886eb5b4fd84bc5144c389a3ef6c16b0e7c97d6eac37",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/models/function.py",
+      "source_sha256": "6a928fb2702c619706fb3371bb117b974bf04775ec746102e64b2b7b4ecf8b7a",
+      "formatted_sha256": "b9bd07c793857c7b90cd8a322073d28a345c04e4c97c8e2dc0a066933c0ffc63",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/models/model_UADAL.py",
+      "source_sha256": "4bd25f6c0c17553b627d4d5bb102f800641abf39e3a09597e7ac6eb8e06b222e",
+      "formatted_sha256": "9701a8950cc2defa8557ae47ddaff1fa4fe641584f22db768ba3a303c3f386d0",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/run2.sh",
+      "source_sha256": "8cd6ff73aebc8830052955d7b15007d250b5417584594e3018d8a6a4b0c62fc9",
+      "formatted_sha256": "d3e5a419d838c477f348b75c27323a99013ab33faf754d1d3cbe5a673b0a5ce1",
+      "translated_notes": 0,
+      "behavior_check": "Bash AST identical after excluding comments and source positions",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/train1.py",
+      "source_sha256": "c3820240ed18a27b65b6fb89829bcc6bb7f1e36c330ba049ecfa8ce2d608abf5",
+      "formatted_sha256": "160178d92f0b13c824c547f62b4b076896c603c7d4ea86fdf95715409d22ac7d",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/utils/__init__.py",
+      "source_sha256": "6a52031819f1587e09bcff945beecdf7db1e0418b4af5195d61f1fd4444505e7",
+      "formatted_sha256": "71e6eca40fc8ce5a44fa93f32a4a108ac00fe0bd79cb40317a6de40790f3ab28",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    },
+    {
+      "path": "models/UADAL/utils/utils.py",
+      "source_sha256": "204ffab0fd9f09498ead58dd50960dec2bca37b829df36b3e949f634c14b5073",
+      "formatted_sha256": "acc6b5e497e8f4139783e4066e2a865546ca8fe179084636bfae9f2bcbdaf26c",
+      "translated_notes": 0,
+      "behavior_check": "Python AST identical except documentation strings",
+      "passed": true
+    }
+  ],
+  "validation": "All executable structures preserved; English comments/docstrings and formatter consistency checked"
+}

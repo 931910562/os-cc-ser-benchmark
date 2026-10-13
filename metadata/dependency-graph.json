@@ -1,0 +1,392 @@
+[
+  {
+    "method": "OCSVM",
+    "from": "run.sh",
+    "to": "ocsvm_baseline.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "DAOD",
+    "from": "script_20260701151306.sh",
+    "to": "run1.m",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "DAOD",
+    "from": "run1.m",
+    "to": "DAOD.m",
+    "reason": "MATLAB local function: DAOD"
+  },
+  {
+    "method": "DAOD",
+    "from": "run1.m",
+    "to": "load_feature_mat.m",
+    "reason": "MATLAB local function: load_feature_mat"
+  },
+  {
+    "method": "DAOD",
+    "from": "DAOD.m",
+    "to": "estimate_mu.m",
+    "reason": "MATLAB local function: estimate_mu"
+  },
+  {
+    "method": "DAOD",
+    "from": "DAOD.m",
+    "to": "OSNNcv.m",
+    "reason": "MATLAB local function: OSNNcv"
+  },
+  {
+    "method": "DAOD",
+    "from": "DAOD.m",
+    "to": "lapgraph.m",
+    "reason": "MATLAB local function: lapgraph"
+  },
+  {
+    "method": "OSBP",
+    "from": "train1.sh",
+    "to": "train1.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "OSBP",
+    "from": "train1.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "OSBP",
+    "from": "train1.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "OSBP",
+    "from": "train1.py",
+    "to": "data_loader/dataloader.py",
+    "reason": "Python import: data_loader.dataloader"
+  },
+  {
+    "method": "OSBP",
+    "from": "train1.py",
+    "to": "data_loader/__init__.py",
+    "reason": "Python import: data_loader.dataloader"
+  },
+  {
+    "method": "OSBP",
+    "from": "utils/utils.py",
+    "to": "models/basenet.py",
+    "reason": "Python import: models.basenet"
+  },
+  {
+    "method": "OSBP",
+    "from": "utils/utils.py",
+    "to": "models/__init__.py",
+    "reason": "Python import: models.basenet"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "run.sh",
+    "to": "train.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "run.sh",
+    "to": "train.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "train.py",
+    "to": "train.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "train.py",
+    "to": "dataloader.py",
+    "reason": "Python import: dataloader"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "train.py",
+    "to": "models.py",
+    "reason": "Python import: models"
+  },
+  {
+    "method": "SDEOTR",
+    "from": "train.py",
+    "to": "utils.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "ANNA",
+    "from": "run_re.sh",
+    "to": "train.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "ANNA",
+    "from": "train.py",
+    "to": "utils.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "ANNA",
+    "from": "train.py",
+    "to": "dataloader_pt.py",
+    "reason": "Python import: dataloader_pt"
+  },
+  {
+    "method": "ANNA",
+    "from": "train.py",
+    "to": "models_npy.py",
+    "reason": "Python import: models_npy"
+  },
+  {
+    "method": "ANNA",
+    "from": "train.py",
+    "to": "utils.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "BCL",
+    "from": "run1.sh",
+    "to": "train.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "BCL",
+    "from": "train.py",
+    "to": "hsic.py",
+    "reason": "Python import: hsic"
+  },
+  {
+    "method": "STA",
+    "from": "run3.sh",
+    "to": "wavstep_1.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "STA",
+    "from": "run3.sh",
+    "to": "wavstep_2.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_1.py",
+    "to": "npydataloader.py",
+    "reason": "Python import: npydataloader"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_1.py",
+    "to": "utilities1.py",
+    "reason": "Python import: utilities1"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_1.py",
+    "to": "wavnetworks.py",
+    "reason": "Python import: wavnetworks"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_2.py",
+    "to": "npydataloader.py",
+    "reason": "Python import: npydataloader"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_2.py",
+    "to": "utilities1.py",
+    "reason": "Python import: utilities1"
+  },
+  {
+    "method": "STA",
+    "from": "wavstep_2.py",
+    "to": "wavnetworks.py",
+    "reason": "Python import: wavnetworks"
+  },
+  {
+    "method": "STIENet",
+    "from": "run3.sh",
+    "to": "train1.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "STIENet",
+    "from": "train1.py",
+    "to": "DataLoader_w.py",
+    "reason": "Python import: DataLoader_w"
+  },
+  {
+    "method": "STIENet",
+    "from": "train1.py",
+    "to": "model.py",
+    "reason": "Python import: model"
+  },
+  {
+    "method": "STIENet",
+    "from": "train1.py",
+    "to": "eval.py",
+    "reason": "Python import: eval"
+  },
+  {
+    "method": "STIENet",
+    "from": "eval.py",
+    "to": "DataLoader.py",
+    "reason": "Python import: DataLoader"
+  },
+  {
+    "method": "STIENet",
+    "from": "eval.py",
+    "to": "model.py",
+    "reason": "Python import: model"
+  },
+  {
+    "method": "UADAL",
+    "from": "run2.sh",
+    "to": "train1.py",
+    "reason": "Literal source-file execution"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "data_loader/get_loader.py",
+    "reason": "Python import: data_loader.get_loader"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "models/basenet1.py",
+    "reason": "Python import: models.basenet1"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "data_loader/dataset.py",
+    "reason": "Python import: data_loader.dataset"
+  },
+  {
+    "method": "UADAL",
+    "from": "train1.py",
+    "to": "models/model_UADAL.py",
+    "reason": "Python import: models.model_UADAL"
+  },
+  {
+    "method": "UADAL",
+    "from": "data_loader/get_loader.py",
+    "to": "data_loader/mydataset.py",
+    "reason": "Python import: mydataset"
+  },
+  {
+    "method": "UADAL",
+    "from": "data_loader/get_loader.py",
+    "to": "data_loader/unaligned_data_loader.py",
+    "reason": "Python import: unaligned_data_loader"
+  },
+  {
+    "method": "UADAL",
+    "from": "utils/__init__.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "utils/__init__.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "utils/utils.py",
+    "to": "models/basenet1.py",
+    "reason": "Python import: models.basenet1"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "models/function.py",
+    "reason": "Python import: models.function"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "models/function.py",
+    "reason": "Python import: models.function"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "models/function.py",
+    "reason": "Python import: models.function"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "models/basenet1.py",
+    "reason": "Python import: models.basenet1"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/utils.py",
+    "reason": "Python import: utils.utils"
+  },
+  {
+    "method": "UADAL",
+    "from": "models/model_UADAL.py",
+    "to": "utils/__init__.py",
+    "reason": "Python import: utils.utils"
+  }
+]

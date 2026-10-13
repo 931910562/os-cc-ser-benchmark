@@ -1,0 +1,646 @@
+[
+  {
+    "feature": "egemaps",
+    "domain": "C",
+    "shape": [
+      7442,
+      88
+    ],
+    "dtype": "float32",
+    "label_count": 7442,
+    "counts": {
+      "0": 1271,
+      "1": 1271,
+      "2": 1271,
+      "3": 1087,
+      "5": 1271,
+      "6": 1271
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "egemaps",
+    "domain": "E",
+    "shape": [
+      35000,
+      88
+    ],
+    "dtype": "float32",
+    "label_count": 35000,
+    "counts": {
+      "0": 7000,
+      "1": 7000,
+      "2": 7000,
+      "3": 7000,
+      "4": 7000
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "egemaps",
+    "domain": "M",
+    "shape": [
+      15730,
+      88
+    ],
+    "dtype": "float32",
+    "label_count": 15730,
+    "counts": {
+      "0": 4534,
+      "1": 2924,
+      "2": 5022,
+      "3": 3250
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "egemaps",
+    "domain": "Me",
+    "shape": [
+      12923,
+      88
+    ],
+    "dtype": "float32",
+    "label_count": 12923,
+    "counts": {
+      "0": 2235,
+      "1": 990,
+      "2": 1560,
+      "3": 5820,
+      "4": 1601,
+      "5": 357,
+      "6": 360
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "resnet",
+    "domain": "C",
+    "shape": [
+      7442,
+      2048
+    ],
+    "dtype": "float32",
+    "label_count": 7442,
+    "counts": {
+      "0": 1271,
+      "1": 1271,
+      "2": 1271,
+      "3": 1271,
+      "4": 1087,
+      "5": 1271
+    },
+    "label_map": {
+      "angry": 0,
+      "disgust": 1,
+      "fear": 2,
+      "happy": 3,
+      "neutral": 4,
+      "sad": 5
+    },
+    "lengths_match": true,
+    "known_ids": [
+      3,
+      5,
+      0
+    ]
+  },
+  {
+    "feature": "resnet",
+    "domain": "E",
+    "shape": [
+      17500,
+      2048
+    ],
+    "dtype": "float32",
+    "label_count": 17500,
+    "counts": {
+      "0": 3500,
+      "1": 3500,
+      "2": 3500,
+      "3": 3500,
+      "4": 3500
+    },
+    "label_map": {
+      "angry": 0,
+      "happy": 1,
+      "neutral": 2,
+      "sad": 3,
+      "surprise": 4
+    },
+    "lengths_match": true,
+    "known_ids": [
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "feature": "resnet",
+    "domain": "M",
+    "shape": [
+      14799,
+      2048
+    ],
+    "dtype": "float32",
+    "label_count": 14799,
+    "counts": {
+      "0": 5022,
+      "1": 4534,
+      "2": 1173,
+      "3": 4070
+    },
+    "label_map": {
+      "angry": 0,
+      "happy": 1,
+      "neutral": 2,
+      "sad": 3
+    },
+    "lengths_match": true,
+    "known_ids": [
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "feature": "resnet",
+    "domain": "Me",
+    "shape": [
+      12923,
+      2048
+    ],
+    "dtype": "float32",
+    "label_count": 12923,
+    "counts": {
+      "0": 1560,
+      "1": 360,
+      "2": 357,
+      "3": 2235,
+      "4": 5820,
+      "5": 990,
+      "6": 1601
+    },
+    "label_map": {
+      "angry": 0,
+      "disgust": 1,
+      "fear": 2,
+      "happy": 3,
+      "neutral": 4,
+      "sad": 5,
+      "surprise": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      3,
+      5,
+      0
+    ]
+  },
+  {
+    "feature": "wav2vec",
+    "domain": "C",
+    "shape": [
+      7442,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 7442,
+    "counts": {
+      "0": 1271,
+      "1": 1271,
+      "2": 1271,
+      "3": 1087,
+      "5": 1271,
+      "6": 1271
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wav2vec",
+    "domain": "E",
+    "shape": [
+      35000,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 35000,
+    "counts": {
+      "0": 7000,
+      "1": 7000,
+      "2": 7000,
+      "3": 7000,
+      "4": 7000
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wav2vec",
+    "domain": "M",
+    "shape": [
+      15730,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 15730,
+    "counts": {
+      "0": 4534,
+      "1": 2924,
+      "2": 5022,
+      "3": 3250
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wav2vec",
+    "domain": "Me",
+    "shape": [
+      12923,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 12923,
+    "counts": {
+      "0": 2235,
+      "1": 990,
+      "2": 1560,
+      "3": 5820,
+      "4": 1601,
+      "5": 357,
+      "6": 360
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wavlm",
+    "domain": "C",
+    "shape": [
+      7442,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 7442,
+    "counts": {
+      "0": 1271,
+      "1": 1271,
+      "2": 1271,
+      "3": 1087,
+      "5": 1271,
+      "6": 1271
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wavlm",
+    "domain": "E",
+    "shape": [
+      35000,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 35000,
+    "counts": {
+      "0": 7000,
+      "1": 7000,
+      "2": 7000,
+      "3": 7000,
+      "4": 7000
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wavlm",
+    "domain": "M",
+    "shape": [
+      15730,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 15730,
+    "counts": {
+      "0": 4534,
+      "1": 2924,
+      "2": 5022,
+      "3": 3250
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "wavlm",
+    "domain": "Me",
+    "shape": [
+      12921,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 12921,
+    "counts": {
+      "0": 2234,
+      "1": 990,
+      "2": 1560,
+      "3": 5820,
+      "4": 1601,
+      "5": 357,
+      "6": 359
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "hubert",
+    "domain": "C",
+    "shape": [
+      7442,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 7442,
+    "counts": {
+      "0": 1271,
+      "1": 1271,
+      "2": 1271,
+      "3": 1087,
+      "5": 1271,
+      "6": 1271
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "hubert",
+    "domain": "E",
+    "shape": [
+      35000,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 35000,
+    "counts": {
+      "0": 7000,
+      "1": 7000,
+      "2": 7000,
+      "3": 7000,
+      "4": 7000
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "hubert",
+    "domain": "M",
+    "shape": [
+      15730,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 15730,
+    "counts": {
+      "0": 4534,
+      "1": 2924,
+      "2": 5022,
+      "3": 3250
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "feature": "hubert",
+    "domain": "Me",
+    "shape": [
+      12923,
+      1024
+    ],
+    "dtype": "float32",
+    "label_count": 12923,
+    "counts": {
+      "0": 2235,
+      "1": 990,
+      "2": 1560,
+      "3": 5820,
+      "4": 1601,
+      "5": 357,
+      "6": 360
+    },
+    "label_map": {
+      "happy": 0,
+      "sad": 1,
+      "angry": 2,
+      "neutral": 3,
+      "surprise": 4,
+      "fear": 5,
+      "disgust": 6
+    },
+    "lengths_match": true,
+    "known_ids": [
+      0,
+      1,
+      2
+    ]
+  }
+]

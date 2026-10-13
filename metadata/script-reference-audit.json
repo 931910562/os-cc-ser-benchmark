@@ -1,0 +1,54 @@
+{
+  "missing_references": [],
+  "python_syntax_errors": [],
+  "bash_syntax_checks": [
+    {
+      "path": "models/ANNA/run_re.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/BCL/run1.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/DAOD/script_20260701151306.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/OCSVM/run.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/OSBP/train1.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/SDEOTR/run.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/STA/run3.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/STIENet/run3.sh",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "path": "models/UADAL/run2.sh",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "inline_python_syntax": "passed",
+  "scope": "Selected launcher and transitive local imports; UADAL model selector folded only where proven",
+  "style_preservation": "Passed: see style-validation.json"
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "method": "OCSVM",
+    "latest_dated_submission": "script_20260701144654.sh",
+    "submission_sha256": "64c922c03b9841dc8a009bf9e16e5689478f890b579a8d836b0bd3919f68add8",
+    "recorded_command": "run.sh",
+    "retained_shell": "run.sh",
+    "entry_scripts": [
+      "ocsvm_baseline.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 2,
+    "removed_previous_files": 2,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "DAOD",
+    "latest_dated_submission": "script_20260701151306.sh",
+    "submission_sha256": "1d945b8b9f7c99d675ef145dfabd8e84827bc8ebee9d297382415532336dfb07",
+    "recorded_command": "run1.m",
+    "retained_shell": "script_20260701151306.sh",
+    "entry_scripts": [
+      "run1.m"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 7,
+    "removed_previous_files": 4,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "OSBP",
+    "latest_dated_submission": "script_20251230170336.sh",
+    "submission_sha256": "95766930472fc04d19d5ecb7575faa11010123ede6c6697fbb043f908e689762",
+    "recorded_command": "train1.sh",
+    "retained_shell": "train1.sh",
+    "entry_scripts": [
+      "train1.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 8,
+    "removed_previous_files": 18,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "SDEOTR",
+    "latest_dated_submission": "script_20260616110332.sh",
+    "submission_sha256": "365f087c862c11a289e4b8070b089cc7544698dcf5a68f6ef19f823bc082607c",
+    "recorded_command": "run.sh",
+    "retained_shell": "run.sh",
+    "entry_scripts": [
+      "train.py",
+      "train.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 5,
+    "removed_previous_files": 5,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "ANNA",
+    "latest_dated_submission": "script_20260616110023.sh",
+    "submission_sha256": "d300110c58cc161b7ad9599ac10ca8b54abd7e49f91c57c8c054d0d0321f60b3",
+    "recorded_command": "run_re.sh",
+    "retained_shell": "run_re.sh",
+    "entry_scripts": [
+      "train.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 6,
+    "removed_previous_files": 11,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "BCL",
+    "latest_dated_submission": "script_20260617115410.sh",
+    "submission_sha256": "5e3d24a810aa40ef4a56f4e7ab163bf04353fa3d5a38917af6b4aa945f471974",
+    "recorded_command": "run1.sh",
+    "retained_shell": "run1.sh",
+    "entry_scripts": [
+      "train.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 3,
+    "removed_previous_files": 16,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "STA",
+    "latest_dated_submission": "script_20260113162038.sh",
+    "submission_sha256": "4f3d2036cec91bb62a364dc92d9eee5c9cc97c44336762cdf7a71c0836c78c66",
+    "recorded_command": "run3.sh",
+    "retained_shell": "run3.sh",
+    "entry_scripts": [
+      "wavstep_1.py",
+      "wavstep_2.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 7,
+    "removed_previous_files": 18,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "STIENet",
+    "latest_dated_submission": "script_20260108162032.sh",
+    "submission_sha256": "f484c3fca6b45b3dc95b70faa23fcfdf59ab1b10e3a636c8225627b5ab8a1576",
+    "recorded_command": "run3.sh",
+    "retained_shell": "run3.sh",
+    "entry_scripts": [
+      "train1.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 6,
+    "removed_previous_files": 15,
+    "excluded_conditional_imports": []
+  },
+  {
+    "method": "UADAL",
+    "latest_dated_submission": "script_20251230160053.sh",
+    "submission_sha256": "89a5691046fbc634706fbf32ff88b48e043d7d888456be51d2ebe29f068f0b5b",
+    "recorded_command": "run2.sh",
+    "retained_shell": "run2.sh",
+    "entry_scripts": [
+      "train1.py"
+    ],
+    "selection_basis": "Latest dated submission filename and its command; invalid ZIP timestamps cannot establish revision order",
+    "retained_files": 11,
+    "removed_previous_files": 12,
+    "excluded_conditional_imports": [
+      {
+        "module": "models.model_cUADAL",
+        "condition": "args.model=UADAL"
+      }
+    ]
+  }
+]

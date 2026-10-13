@@ -1,0 +1,60 @@
+{
+  "python_syntax_errors": [],
+  "source_methods": [
+    "ANNA",
+    "BCL",
+    "DAOD",
+    "OCSVM",
+    "OSBP",
+    "SDEOTR",
+    "STA",
+    "STIENet",
+    "UADAL"
+  ],
+  "active_assets": [
+    {
+      "name": "features-egemaps-v0.1.zip",
+      "bytes": 47221177,
+      "description": "egemaps: four corpora, NPY arrays and supplied MAT files"
+    },
+    {
+      "name": "features-wav2vec-v0.1.zip",
+      "bytes": 542583444,
+      "description": "wav2vec: four corpora, NPY arrays and supplied MAT files"
+    },
+    {
+      "name": "features-wavlm-v0.1.zip",
+      "bytes": 541971870,
+      "description": "wavlm: four corpora, NPY arrays and supplied MAT files"
+    },
+    {
+      "name": "features-hubert-v0.1.zip",
+      "bytes": 540884239,
+      "description": "hubert: four corpora, NPY arrays and supplied MAT files"
+    }
+  ],
+  "resnet": "on hold",
+  "github": "Public repository created; source, release assets and Pages publication in progress",
+  "paper_results": 540,
+  "training": "not executed",
+  "local_links": "passed",
+  "javascript_syntax": "passed",
+  "powershell_syntax": "passed",
+  "label_preparation": "passed synthetic semantic remapping; sample order unchanged",
+  "metrics": "passed macro known-class / unknown harmonic mean check",
+  "browser_QA": "Not performed: local preview access was denied by browser security policy",
+  "release_integrity": "SHA256 and ZIP CRC verification performed for four active packages",
+  "original_source_files": 55,
+  "generated_dispatchers": 0,
+  "original_source_hashes": "All 55 original archive sources verified; source-manifest.csv separates original and formatted published hashes",
+  "model_python_files": 38,
+  "model_bash_files": 9,
+  "model_python_syntax": "passed",
+  "model_bash_syntax": "9 of 9 passed",
+  "source_file_references": "Selected runner and transitive local dependencies present",
+  "runner_recency": "Latest dated scheduler evidence; detailed in runner-selection.json",
+  "removed_previous_model_files": 101,
+  "formatting": "53 model code files formatted; executable structures preserved",
+  "english_documentation": "134 Chinese/corrupted comments and docstrings rewritten; English comments/docstrings checked",
+  "active_data_manifest_files": 64
+}

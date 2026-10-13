@@ -1,2 +1,84 @@
-# os-cc-ser-benchmark
-Open-Set Cross-Corpus Speech Emotion Recognition: A Unified Benchmark and Systematic Analysis — code, offline features, paper results and project page.
+# Open-Set Cross-Corpus Speech Emotion Recognition
+
+**A Unified Benchmark and Systematic Analysis**  
+开放集跨语料库语音情感识别：统一评测基准与系统分析
+
+[Project page](https://931910562.github.io/os-cc-ser-benchmark/) · [Code and feature packages](https://github.com/931910562/os-cc-ser-benchmark/releases/tag/v0.1)
+
+This repository packages the supplied experimental implementations and feature files for a benchmark spanning **4 corpora · 12 directed tasks · 5 representations · 9 methods · 540 paper configurations**. The project page is in [`docs/`](docs/index.html); experimental features are distributed separately as release assets.
+
+## Benchmark protocol
+
+- Corpora: MSP-IMPROV (M), English ESD (E), CREMA-D (C), MELD (Me).
+- Known emotions: happy, sad, angry. All remaining target emotions map to unknown.
+- Source training uses known-class labels. Target labels are for final evaluation only; they must not select hyperparameters, rejection thresholds or checkpoints.
+- Features: eGeMAPS, ResNet-50, wav2vec 2.0, WavLM, HuBERT.
+- Report OS* (macro accuracy of the three known classes), UNK (unknown recall) and HOS = 2 × OS* × UNK / (OS* + UNK).
+
+**Release status:** all nine methods now have supplied source code. This is a curated source/data release, not a verified rerun of all 540 experiments. Important differences between the article and the supplied artifacts are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+
+## Methods
+
+| Method | Retained entry | Inputs / important conditions |
+|---|---|---|
+| OCSVM | `models/OCSVM/ocsvm_baseline.py` | NPY arrays, known labels 0–2 |
+| OSBP | `models/OSBP/train1.py` | NPY arrays; retained model defaults to 1024 dimensions |
+| STA | `models/STA/wavstep_1.py`, `wavstep_2.py` | NPY arrays; two-stage training |
+| DAOD | `models/DAOD/run1.m` | MATLAB, MAT features; edit `feature_sets` paths |
+| ANNA | `models/ANNA/train.py` | NPY arrays, `--feature_dim`, `--known_class 3` |
+| BCL | `models/BCL/train.py` | HDF5 MAT inputs, CUDA, explicit class indices |
+| UADAL | `models/UADAL/train1.py` | NPY arrays, CUDA and architecture dimensions |
+| STIENet | `models/STIENet/train1.py` | 1024-dimensional array branch |
+| SDEOTR | `models/SDEOTR/train.py` | NPY arrays, explicit `--input_dim` |
+
+Each method retains exactly one latest recorded `.sh` launcher and its required local code, with 55 original files in total. Old launchers, unused training variants and standalone extraction/result tools have been removed. See [RUNNERS.md](RUNNERS.md) for selections and [CLEANUP.md](CLEANUP.md) for dependency rules. Scripts retain their supplied paths, parameters and algorithm behavior, with consistent formatting and English comments/docstrings. See [CODE_STYLE.md](CODE_STYLE.md) for validation and original/published hashes. Original third-party license files for ANNA and STA are preserved; other supplied components did not provide verified licenses. No blanket license is asserted for the combined code or data. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Data and quick start
+
+**ResNet is on hold:** its array/MAT conversion and both ResNet archive uploads are deferred. Four other representations are prepared for the current release. Historical corpus counts and label mappings remain documented.
+
+
+Download the four active feature archives plus `SHA256SUMS-active.txt` from the [v0.1 release](https://github.com/931910562/os-cc-ser-benchmark/releases/tag/v0.1). The release also includes the curated model-code ZIP and the full project ZIP. Each archive is below 2 GiB.
+
+```bash
+python -m venv .venv
+# Activate the virtual environment for your operating system.
+python -m pip install -r requirements.txt
+python scripts/verify_assets.py /path/to/release-assets --checksums SHA256SUMS-active.txt
+# Extract features-<representation>-v0.1.zip into a data directory.
+python scripts/prepare_features.py --input /path/to/data/wavlm --output /path/to/prepared/wavlm
+python models/OCSVM/ocsvm_baseline.py --data_root /path/to/prepared --feature wavlm --source C --target E --save_dir ./ocsvm_results
+```
+
+The preparation tool maps **emotion names**, not arbitrary numeric indices, to happy=0, sad=1, angry=2, unknown=3. It preserves sample order and leaves original files unchanged. Run it independently for each representation. It does not create or infer the paper's train/test splits.
+
+For the other methods, see [RUNNING.md](RUNNING.md). Run scripts from their method directory so local imports resolve. Python dependencies are inferred from source imports; no verified original environment lockfile was supplied. MATLAB DAOD requires Statistics and Machine Learning Toolbox functionality (`fitclinear`).
+
+## Paper results
+
+[`results/paper-results.csv`](results/paper-results.csv) contains all 540 appendix configurations transcribed from the supplied DOCX. [`results/paper-summary.csv`](results/paper-summary.csv) retains the article's overall summary. These values were not regenerated by running the models. The article reports STIENet mean HOS 35.04 and ANNA 32.94.
+
+There are **36 appendix entries** whose reported HOS differs by more than 0.05 percentage points from the harmonic mean of the displayed OS*/UNK. They are preserved and listed in [`metadata/paper-hos-discrepancies.csv`](metadata/paper-hos-discrepancies.csv), rather than silently changed.
+
+## Project layout
+
+```text
+models/           nine methods, one selected SH per model and required dependencies
+scripts/          label preparation, integrity verification, final evaluation
+results/          article summary and 540 appendix configurations
+metadata/         file provenance, hashes, dataset audit, release inventory
+docs/             responsive GitHub Pages project page and interactive results
+.github/          GitHub Pages publishing workflow
+```
+
+The original archives remain unchanged. `metadata/source-manifest.csv` and `metadata/data-manifest.csv` record provenance. [CLEANUP.md](CLEANUP.md) explains the removed categories and retained runtime resources.
+
+## GitHub publication
+
+Push the repository to `main`, enable **Settings → Pages → GitHub Actions**, and publish the feature archives through a GitHub Release tagged `v0.1`. `scripts/publish_github.ps1` provides an authenticated CLI publishing path. It fills the actual repository URL into the page and uploads the data assets. It requires the official GitHub CLI and `gh auth login`.
+
+The website works locally with no build step: open `docs/index.html`, or serve `docs/` using `python -m http.server 8765 --directory docs`. Repository and release links use the published GitHub project URL.
+
+## Citation
+
+Use the supplied manuscript title when referring to this benchmark. Author names, publication venue, DOI and final bibliographic metadata were not provided; no fabricated citation or publication status is included.

@@ -1,0 +1,507 @@
+[
+  {
+    "method": "OCSVM",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OCSVM",
+    "path": "script_20260701144654.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "DAOD",
+    "path": "M_E.m",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "DAOD",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "DAOD",
+    "path": "run.m",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "DAOD",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "OSNN.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "OSNN1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "OSNN2.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "data_loader/get_loader.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "data_loader/mydataset.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "data_loader/unaligned_data_loader.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "script_20251230170336.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "search.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "search.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "search1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "train.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "train.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "trainer_osda.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "trainer_osda_sourceonly.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "OSBP",
+    "path": "utils.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "SDEOTR",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "SDEOTR",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "SDEOTR",
+    "path": "s.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "SDEOTR",
+    "path": "script_20260616110332.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "SDEOTR",
+    "path": "search.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "dataloader.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "generate_results.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "models.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "run1.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "run2.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "run3.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "script_20260616110023.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "ANNA",
+    "path": "tools/searchanna.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "config.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "data_loader.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "extract_is09_features.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "hsic0.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "loss_funcs.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "mat.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "mat1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "models.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "run2.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "run3.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "run_re.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "script_20260617115410.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "BCL",
+    "path": "tools/searchbcl.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "BCL",
+    "path": "utils.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "__init__.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "data.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "dataloader.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "networks.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STA",
+    "path": "run1.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STA",
+    "path": "run2.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STA",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STA",
+    "path": "script_20260113162038.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STA",
+    "path": "search.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "step1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "step2.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "step_1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "step_2.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "utilities.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "wavstep1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STA",
+    "path": "wavstep2.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "extract_features.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "model1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "model_w.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "osvm.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "resnet50.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "run1.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "run2.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "run4.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "save_to_mat.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "script_20260108162032.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "search.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "train.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "STIENet",
+    "path": "wav_osvm.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "README.md",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "config.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "models/basenet.py",
+    "reason": "Only cUADAL branch uses this; selected SH fixes MODEL=UADAL"
+  },
+  {
+    "method": "UADAL",
+    "path": "models/model_cUADAL.py",
+    "reason": "Only cUADAL branch uses this; selected SH fixes MODEL=UADAL"
+  },
+  {
+    "method": "UADAL",
+    "path": "result/result.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "run.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "run1.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "run_latest.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "script_20251230160053.sh",
+    "reason": "Other launcher/submission or obsolete generated dispatcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "search.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "search1.py",
+    "reason": "Not reachable from the selected launcher"
+  },
+  {
+    "method": "UADAL",
+    "path": "train.py",
+    "reason": "Not reachable from the selected launcher"
+  }
+]

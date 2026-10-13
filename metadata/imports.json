@@ -1,0 +1,47 @@
+{
+  "OCSVM": [
+    "numpy",
+    "sklearn",
+    "torch"
+  ],
+  "DAOD": [],
+  "OSBP": [
+    "numpy",
+    "torch"
+  ],
+  "SDEOTR": [
+    "numpy",
+    "torch"
+  ],
+  "ANNA": [
+    "numpy",
+    "sklearn",
+    "torch"
+  ],
+  "BCL": [
+    "h5py",
+    "numpy",
+    "sklearn",
+    "torch"
+  ],
+  "STA": [
+    "IPython",
+    "matplotlib",
+    "numpy",
+    "torch"
+  ],
+  "STIENet": [
+    "numpy",
+    "torch"
+  ],
+  "UADAL": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "seaborn",
+    "torch",
+    "torchvision"
+  ]
+}

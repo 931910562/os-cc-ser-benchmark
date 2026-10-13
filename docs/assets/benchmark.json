@@ -1,0 +1,5470 @@
+{
+  "summary": [
+    {
+      "method": "STIENet",
+      "OS_star": 28.84,
+      "UNK": 47.34,
+      "HOS": 35.04,
+      "wins": 24
+    },
+    {
+      "method": "ANNA",
+      "OS_star": 25.57,
+      "UNK": 62.14,
+      "HOS": 32.94,
+      "wins": 21
+    },
+    {
+      "method": "UADAL",
+      "OS_star": 29.31,
+      "UNK": 37.88,
+      "HOS": 30.81,
+      "wins": 4
+    },
+    {
+      "method": "SDEOTR",
+      "OS_star": 42.12,
+      "UNK": 25.13,
+      "HOS": 28.07,
+      "wins": 5
+    },
+    {
+      "method": "BCL",
+      "OS_star": 35.23,
+      "UNK": 29.91,
+      "HOS": 26.7,
+      "wins": 3
+    },
+    {
+      "method": "DAOD",
+      "OS_star": 14.68,
+      "UNK": 66.2,
+      "HOS": 20.77,
+      "wins": 0
+    },
+    {
+      "method": "STA",
+      "OS_star": 18.88,
+      "UNK": 60.57,
+      "HOS": 16.78,
+      "wins": 3
+    },
+    {
+      "method": "OCSVM",
+      "OS_star": 18.67,
+      "UNK": 58.33,
+      "HOS": 15.43,
+      "wins": 0
+    },
+    {
+      "method": "OSBP",
+      "OS_star": 41.17,
+      "UNK": 14.86,
+      "HOS": 13.72,
+      "wins": 0
+    }
+  ],
+  "results": [
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 32.17,
+      "UNK": 25.94,
+      "HOS": 28.72,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 39.58,
+      "UNK": 27.75,
+      "HOS": 32.62,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 27.95,
+      "UNK": 32.37,
+      "HOS": 30.0,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 0.6,
+      "UNK": 99.2,
+      "HOS": 1.2,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 1.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 0.15,
+      "UNK": 99.82,
+      "HOS": 0.29,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 56.19,
+      "UNK": 8.81,
+      "HOS": 15.24,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 48.44,
+      "UNK": 7.44,
+      "HOS": 12.9,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 38.1,
+      "UNK": 6.07,
+      "HOS": 10.47,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 46.12,
+      "UNK": 9.17,
+      "HOS": 15.3,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 64.75,
+      "UNK": 5.51,
+      "HOS": 10.16,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 41.61,
+      "UNK": 7.27,
+      "HOS": 12.38,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 7.36,
+      "UNK": 78.91,
+      "HOS": 13.47,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 38.08,
+      "UNK": 40.48,
+      "HOS": 39.24,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 28.55,
+      "UNK": 42.68,
+      "HOS": 34.21,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 24.78,
+      "UNK": 42.83,
+      "HOS": 31.4,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 35.62,
+      "UNK": 69.44,
+      "HOS": 47.08,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 28.94,
+      "UNK": 34.03,
+      "HOS": 31.28,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 18.25,
+      "UNK": 48.62,
+      "HOS": 26.55,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 11.72,
+      "UNK": 56.65,
+      "HOS": 19.42,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 9.89,
+      "UNK": 67.4,
+      "HOS": 17.24,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 11.06,
+      "UNK": 78.21,
+      "HOS": 19.39,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 19.24,
+      "UNK": 71.07,
+      "HOS": 30.29,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 15.69,
+      "UNK": 58.85,
+      "HOS": 24.78,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 33.68,
+      "UNK": 64.05,
+      "HOS": 44.15,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 36.84,
+      "UNK": 67.61,
+      "HOS": 47.7,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 12.05,
+      "UNK": 79.39,
+      "HOS": 20.92,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 28.76,
+      "UNK": 42.21,
+      "HOS": 34.21,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 44.29,
+      "UNK": 48.57,
+      "HOS": 46.33,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 27.13,
+      "UNK": 46.08,
+      "HOS": 34.15,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 51.68,
+      "UNK": 17.54,
+      "HOS": 26.19,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 34.51,
+      "UNK": 59.04,
+      "HOS": 43.56,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 19.53,
+      "UNK": 40.13,
+      "HOS": 26.27,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 32.7,
+      "UNK": 33.66,
+      "HOS": 33.17,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 55.12,
+      "UNK": 34.94,
+      "HOS": 42.77,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 24.33,
+      "UNK": 31.65,
+      "HOS": 27.51,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 16.22,
+      "UNK": 68.04,
+      "HOS": 26.08,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 29.01,
+      "UNK": 41.93,
+      "HOS": 34.33,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 18.32,
+      "UNK": 46.44,
+      "HOS": 26.34,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 27.67,
+      "UNK": 32.85,
+      "HOS": 30.02,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 37.26,
+      "UNK": 72.09,
+      "HOS": 49.15,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 28.21,
+      "UNK": 36.14,
+      "HOS": 31.73,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 30.55,
+      "UNK": 56.77,
+      "HOS": 39.72,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 28.93,
+      "UNK": 64.01,
+      "HOS": 39.85,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 25.17,
+      "UNK": 44.54,
+      "HOS": 32.16,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 21.44,
+      "UNK": 49.05,
+      "HOS": 29.84,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 24.78,
+      "UNK": 51.69,
+      "HOS": 33.5,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 24.08,
+      "UNK": 45.24,
+      "HOS": 31.43,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "E",
+      "OS_star": 48.8,
+      "UNK": 22.38,
+      "HOS": 30.69,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "C",
+      "OS_star": 53.63,
+      "UNK": 33.04,
+      "HOS": 40.89,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 32.52,
+      "UNK": 33.41,
+      "HOS": 32.96,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "M",
+      "OS_star": 39.59,
+      "UNK": 10.83,
+      "HOS": 17.01,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "C",
+      "OS_star": 60.03,
+      "UNK": 14.03,
+      "HOS": 22.74,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 40.75,
+      "UNK": 7.82,
+      "HOS": 13.12,
+      "provenance": "Paper Appendix A1"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 2.66,
+      "UNK": 93.35,
+      "HOS": 5.17,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.0,
+      "UNK": 99.9,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 13.75,
+      "UNK": 66.45,
+      "HOS": 22.79,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 15.25,
+      "UNK": 63.26,
+      "HOS": 24.58,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 5.14,
+      "UNK": 89.16,
+      "HOS": 9.72,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 26.44,
+      "UNK": 44.59,
+      "HOS": 33.19,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 45.45,
+      "UNK": 6.71,
+      "HOS": 11.69,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 60.35,
+      "UNK": 2.06,
+      "HOS": 3.98,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 39.0,
+      "UNK": 5.46,
+      "HOS": 9.57,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 47.0,
+      "UNK": 0.37,
+      "HOS": 0.73,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 50.95,
+      "UNK": 0.04,
+      "HOS": 0.09,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 38.84,
+      "UNK": 9.01,
+      "HOS": 14.63,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 31.6,
+      "UNK": 40.37,
+      "HOS": 35.45,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 17.11,
+      "UNK": 55.4,
+      "HOS": 26.15,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 19.52,
+      "UNK": 52.97,
+      "HOS": 28.53,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 28.78,
+      "UNK": 40.06,
+      "HOS": 33.5,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 3.49,
+      "UNK": 96.11,
+      "HOS": 6.73,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 9.07,
+      "UNK": 93.44,
+      "HOS": 16.54,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 15.52,
+      "UNK": 72.12,
+      "HOS": 25.56,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.67,
+      "UNK": 96.43,
+      "HOS": 1.33,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 15.44,
+      "UNK": 51.64,
+      "HOS": 23.78,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 2.96,
+      "UNK": 92.8,
+      "HOS": 5.74,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 3.16,
+      "UNK": 94.04,
+      "HOS": 6.11,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 9.21,
+      "UNK": 88.81,
+      "HOS": 16.69,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 25.91,
+      "UNK": 54.09,
+      "HOS": 35.04,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 43.78,
+      "UNK": 54.07,
+      "HOS": 48.38,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 24.64,
+      "UNK": 47.47,
+      "HOS": 32.44,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 22.38,
+      "UNK": 66.64,
+      "HOS": 33.51,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 36.71,
+      "UNK": 56.65,
+      "HOS": 44.55,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 23.79,
+      "UNK": 72.4,
+      "HOS": 35.81,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 23.57,
+      "UNK": 56.24,
+      "HOS": 33.22,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 35.3,
+      "UNK": 28.69,
+      "HOS": 31.65,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 15.59,
+      "UNK": 48.03,
+      "HOS": 23.54,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 31.75,
+      "UNK": 33.47,
+      "HOS": 32.59,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 42.53,
+      "UNK": 45.52,
+      "HOS": 43.98,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "BCL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 36.26,
+      "UNK": 58.24,
+      "HOS": 44.69,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 24.54,
+      "UNK": 52.88,
+      "HOS": 33.56,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 27.59,
+      "UNK": 42.05,
+      "HOS": 33.24,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 24.81,
+      "UNK": 27.09,
+      "HOS": 25.92,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 24.54,
+      "UNK": 35.22,
+      "HOS": 28.91,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 33.78,
+      "UNK": 26.13,
+      "HOS": 29.53,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 25.78,
+      "UNK": 33.33,
+      "HOS": 34.54,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 29.9,
+      "UNK": 43.14,
+      "HOS": 35.32,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 23.02,
+      "UNK": 36.96,
+      "HOS": 28.37,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 19.63,
+      "UNK": 50.95,
+      "HOS": 28.34,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 17.58,
+      "UNK": 56.06,
+      "HOS": 26.77,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 26.33,
+      "UNK": 49.53,
+      "HOS": 34.38,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 13.35,
+      "UNK": 50.18,
+      "HOS": 21.09,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "M",
+      "OS_star": 41.28,
+      "UNK": 12.0,
+      "HOS": 18.59,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "E",
+      "OS_star": 53.71,
+      "UNK": 33.53,
+      "HOS": 41.29,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 42.13,
+      "UNK": 8.86,
+      "HOS": 14.64,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 34.26,
+      "UNK": 30.83,
+      "HOS": 32.46,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 50.7,
+      "UNK": 25.14,
+      "HOS": 33.62,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wav2vec",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 51.25,
+      "UNK": 32.6,
+      "HOS": 39.85,
+      "provenance": "Paper Appendix A2"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 2.9,
+      "UNK": 91.97,
+      "HOS": 5.63,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 25.28,
+      "UNK": 62.05,
+      "HOS": 35.92,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 6.77,
+      "UNK": 92.32,
+      "HOS": 12.62,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 0.72,
+      "UNK": 99.49,
+      "HOS": 1.42,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 20.27,
+      "UNK": 77.04,
+      "HOS": 32.09,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 0.0,
+      "UNK": 92.13,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 25.85,
+      "UNK": 47.79,
+      "HOS": 33.55,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 19.64,
+      "UNK": 43.79,
+      "HOS": 27.12,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 22.38,
+      "UNK": 33.72,
+      "HOS": 26.91,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 24.05,
+      "UNK": 41.08,
+      "HOS": 30.34,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 11.01,
+      "UNK": 49.38,
+      "HOS": 18.01,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 19.76,
+      "UNK": 34.12,
+      "HOS": 25.03,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 0.0,
+      "UNK": 99.55,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 99.94,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 0.0,
+      "UNK": 99.85,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 8.85,
+      "UNK": 82.01,
+      "HOS": 15.98,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 96.47,
+      "HOS": 1.3,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 1.8,
+      "UNK": 92.8,
+      "HOS": 3.53,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 27.47,
+      "UNK": 60.61,
+      "HOS": 37.8,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 3.88,
+      "UNK": 41.86,
+      "HOS": 7.1,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 17.1,
+      "UNK": 56.89,
+      "HOS": 26.29,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 7.38,
+      "UNK": 79.11,
+      "HOS": 13.51,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 18.2,
+      "UNK": 80.44,
+      "HOS": 29.68,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 14.27,
+      "UNK": 50.86,
+      "HOS": 22.29,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 18.86,
+      "UNK": 67.94,
+      "HOS": 29.53,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 3.61,
+      "UNK": 86.15,
+      "HOS": 6.94,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 8.4,
+      "UNK": 80.49,
+      "HOS": 15.21,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 17.99,
+      "UNK": 47.56,
+      "HOS": 26.1,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 17.75,
+      "UNK": 67.11,
+      "HOS": 28.08,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 23.01,
+      "UNK": 33.87,
+      "HOS": 27.4,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 22.75,
+      "UNK": 37.19,
+      "HOS": 28.23,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 28.46,
+      "UNK": 35.0,
+      "HOS": 31.39,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 23.84,
+      "UNK": 31.25,
+      "HOS": 27.05,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 27.19,
+      "UNK": 12.79,
+      "HOS": 17.39,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 46.21,
+      "UNK": 15.68,
+      "HOS": 23.41,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 35.52,
+      "UNK": 12.41,
+      "HOS": 18.39,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 27.34,
+      "UNK": 23.46,
+      "HOS": 25.24,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 18.45,
+      "UNK": 41.34,
+      "HOS": 25.46,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 23.13,
+      "UNK": 38.95,
+      "HOS": 29.05,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 20.43,
+      "UNK": 37.25,
+      "HOS": 26.38,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 23.64,
+      "UNK": 65.42,
+      "HOS": 34.76,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 21.86,
+      "UNK": 45.62,
+      "HOS": 29.54,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 30.07,
+      "UNK": 56.91,
+      "HOS": 39.35,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 40.47,
+      "UNK": 62.99,
+      "HOS": 49.28,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 26.88,
+      "UNK": 45.07,
+      "HOS": 33.68,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 28.27,
+      "UNK": 36.49,
+      "HOS": 31.86,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 32.91,
+      "UNK": 39.24,
+      "HOS": 35.8,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 27.49,
+      "UNK": 43.73,
+      "HOS": 33.76,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "M",
+      "target": "E",
+      "OS_star": 26.61,
+      "UNK": 25.24,
+      "HOS": 25.91,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "M",
+      "target": "C",
+      "OS_star": 19.35,
+      "UNK": 42.74,
+      "HOS": 26.64,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 27.71,
+      "UNK": 36.64,
+      "HOS": 31.56,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "E",
+      "target": "M",
+      "OS_star": 32.33,
+      "UNK": 12.92,
+      "HOS": 18.47,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "E",
+      "target": "C",
+      "OS_star": 37.29,
+      "UNK": 16.2,
+      "HOS": 22.59,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 31.01,
+      "UNK": 10.58,
+      "HOS": 15.77,
+      "provenance": "Paper Appendix A3"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 0.0,
+      "UNK": 99.74,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 2.84,
+      "UNK": 88.51,
+      "HOS": 5.51,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 0.69,
+      "UNK": 97.48,
+      "HOS": 1.37,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 0.97,
+      "UNK": 97.01,
+      "HOS": 1.91,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 4.04,
+      "UNK": 84.18,
+      "HOS": 7.72,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 36.63,
+      "UNK": 34.91,
+      "HOS": 35.75,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 15.45,
+      "UNK": 61.35,
+      "HOS": 24.68,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 7.43,
+      "UNK": 84.56,
+      "HOS": 13.66,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 22.81,
+      "UNK": 42.01,
+      "HOS": 29.57,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 23.8,
+      "UNK": 53.51,
+      "HOS": 32.95,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 31.91,
+      "UNK": 43.61,
+      "HOS": 36.86,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OSBP",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 27.8,
+      "UNK": 62.0,
+      "HOS": 38.39,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 0.0,
+      "UNK": 97.78,
+      "HOS": 1.48,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 2.76,
+      "UNK": 91.04,
+      "HOS": 5.36,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 14.14,
+      "UNK": 28.37,
+      "HOS": 18.87,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 0.0,
+      "UNK": 99.75,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 0.0,
+      "UNK": 99.04,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 98.26,
+      "HOS": 1.51,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 9.3,
+      "UNK": 80.65,
+      "HOS": 16.67,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 12.87,
+      "UNK": 59.46,
+      "HOS": 21.16,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 15.8,
+      "UNK": 35.11,
+      "HOS": 21.79,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 3.98,
+      "UNK": 93.69,
+      "HOS": 7.63,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 4.64,
+      "UNK": 85.39,
+      "HOS": 8.8,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "DAOD",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 11.25,
+      "UNK": 95.54,
+      "HOS": 20.13,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 16.78,
+      "UNK": 43.83,
+      "HOS": 24.26,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 26.93,
+      "UNK": 47.4,
+      "HOS": 34.34,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 22.64,
+      "UNK": 46.97,
+      "HOS": 30.56,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 17.51,
+      "UNK": 45.35,
+      "HOS": 25.26,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 15.52,
+      "UNK": 52.62,
+      "HOS": 23.97,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "ANNA",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 10.2,
+      "UNK": 73.48,
+      "HOS": 17.91,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 28.74,
+      "UNK": 33.42,
+      "HOS": 30.9,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 37.93,
+      "UNK": 26.56,
+      "HOS": 31.24,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 31.79,
+      "UNK": 10.49,
+      "HOS": 15.78,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 19.37,
+      "UNK": 45.7,
+      "HOS": 27.2,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 31.54,
+      "UNK": 41.46,
+      "HOS": 35.83,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "BCL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 16.52,
+      "UNK": 70.76,
+      "HOS": 26.79,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 25.0,
+      "UNK": 30.44,
+      "HOS": 27.53,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 19.54,
+      "UNK": 56.78,
+      "HOS": 29.15,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 28.84,
+      "UNK": 30.65,
+      "HOS": 29.74,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 25.41,
+      "UNK": 28.96,
+      "HOS": 27.13,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 23.5,
+      "UNK": 29.32,
+      "HOS": 26.04,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "UADAL",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 26.06,
+      "UNK": 60.54,
+      "HOS": 36.47,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.52,
+      "UNK": 46.4,
+      "HOS": 36.82,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 26.99,
+      "UNK": 43.84,
+      "HOS": 33.41,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 27.78,
+      "UNK": 44.13,
+      "HOS": 34.1,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 29.68,
+      "UNK": 37.54,
+      "HOS": 33.15,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 35.6,
+      "UNK": 53.85,
+      "HOS": 42.86,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "STIENet",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 29.79,
+      "UNK": 60.65,
+      "HOS": 39.96,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "C",
+      "target": "M",
+      "OS_star": 29.1,
+      "UNK": 19.21,
+      "HOS": 23.14,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "C",
+      "target": "E",
+      "OS_star": 28.53,
+      "UNK": 21.36,
+      "HOS": 24.43,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 33.07,
+      "UNK": 17.45,
+      "HOS": 22.85,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 28.66,
+      "UNK": 34.84,
+      "HOS": 31.45,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 26.41,
+      "UNK": 25.33,
+      "HOS": 25.86,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "resnet",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 32.36,
+      "UNK": 31.14,
+      "HOS": 31.74,
+      "provenance": "Paper Appendix A4"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 21.74,
+      "UNK": 29.04,
+      "HOS": 24.86,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 17.86,
+      "UNK": 58.58,
+      "HOS": 27.37,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 16.57,
+      "UNK": 44.65,
+      "HOS": 24.17,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 0.6,
+      "UNK": 99.2,
+      "HOS": 1.2,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 28.82,
+      "UNK": 36.51,
+      "HOS": 32.21,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 31.56,
+      "UNK": 23.86,
+      "HOS": 27.16,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 40.81,
+      "UNK": 0.3,
+      "HOS": 0.6,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 37.95,
+      "UNK": 0.08,
+      "HOS": 0.16,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 36.04,
+      "UNK": 0.14,
+      "HOS": 0.27,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 36.92,
+      "UNK": 4.25,
+      "HOS": 7.62,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 45.42,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 35.81,
+      "UNK": 0.58,
+      "HOS": 1.14,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 30.0,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 12.5,
+      "UNK": 89.45,
+      "HOS": 22.22,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 60.0,
+      "UNK": 44.44,
+      "HOS": 51.06,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 39.13,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 30.77,
+      "UNK": 10.53,
+      "HOS": 15.69,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 25.0,
+      "UNK": 20.0,
+      "HOS": 22.22,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 4.14,
+      "UNK": 77.1,
+      "HOS": 7.86,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 2.46,
+      "UNK": 95.39,
+      "HOS": 4.81,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 2.25,
+      "UNK": 84.36,
+      "HOS": 4.39,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 10.55,
+      "UNK": 70.03,
+      "HOS": 18.34,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 18.12,
+      "UNK": 74.78,
+      "HOS": 29.17,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 12.22,
+      "UNK": 60.49,
+      "HOS": 20.34,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 2.21,
+      "UNK": 96.11,
+      "HOS": 4.33,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 15.68,
+      "UNK": 62.28,
+      "HOS": 25.05,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 1.93,
+      "UNK": 95.2,
+      "HOS": 3.79,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 10.49,
+      "UNK": 81.16,
+      "HOS": 18.59,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 20.06,
+      "UNK": 69.27,
+      "HOS": 31.11,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 4.88,
+      "UNK": 89.24,
+      "HOS": 9.26,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 40.65,
+      "UNK": 9.43,
+      "HOS": 15.3,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 36.14,
+      "UNK": 33.09,
+      "HOS": 34.55,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 25.96,
+      "UNK": 27.96,
+      "HOS": 26.92,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 36.49,
+      "UNK": 2.15,
+      "HOS": 4.07,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 9.94,
+      "UNK": 86.47,
+      "HOS": 17.83,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 24.48,
+      "UNK": 29.43,
+      "HOS": 26.73,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 30.83,
+      "UNK": 43.04,
+      "HOS": 35.95,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 18.36,
+      "UNK": 63.15,
+      "HOS": 28.44,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 32.65,
+      "UNK": 1.98,
+      "HOS": 3.64,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 22.77,
+      "UNK": 34.54,
+      "HOS": 27.43,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 27.21,
+      "UNK": 26.33,
+      "HOS": 26.71,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 17.53,
+      "UNK": 33.52,
+      "HOS": 23.03,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 24.81,
+      "UNK": 26.1,
+      "HOS": 25.44,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 30.13,
+      "UNK": 40.76,
+      "HOS": 34.65,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 23.26,
+      "UNK": 19.87,
+      "HOS": 21.43,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 13.04,
+      "UNK": 58.46,
+      "HOS": 21.33,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 28.67,
+      "UNK": 50.84,
+      "HOS": 36.66,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 23.36,
+      "UNK": 44.02,
+      "HOS": 30.53,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "E",
+      "OS_star": 25.86,
+      "UNK": 55.7,
+      "HOS": 35.32,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "C",
+      "OS_star": 38.05,
+      "UNK": 43.51,
+      "HOS": 40.6,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 27.25,
+      "UNK": 38.73,
+      "HOS": 31.99,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "M",
+      "OS_star": 35.78,
+      "UNK": 10.95,
+      "HOS": 16.77,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "C",
+      "OS_star": 48.33,
+      "UNK": 15.07,
+      "HOS": 22.98,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 30.66,
+      "UNK": 16.64,
+      "HOS": 21.57,
+      "provenance": "Paper Appendix A5"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 25.57,
+      "UNK": 31.26,
+      "HOS": 28.13,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 33.46,
+      "UNK": 11.69,
+      "HOS": 17.32,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 30.78,
+      "UNK": 18.91,
+      "HOS": 23.43,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 32.56,
+      "UNK": 10.95,
+      "HOS": 16.39,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 31.62,
+      "UNK": 6.04,
+      "HOS": 10.14,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 31.34,
+      "UNK": 7.7,
+      "HOS": 14.81,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 43.61,
+      "UNK": 0.25,
+      "HOS": 0.49,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 44.63,
+      "UNK": 0.14,
+      "HOS": 0.28,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 33.85,
+      "UNK": 2.68,
+      "HOS": 4.96,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 36.05,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 43.05,
+      "UNK": 0.34,
+      "HOS": 0.68,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OSBP",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 44.3,
+      "UNK": 0.03,
+      "HOS": 0.06,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 4.54,
+      "UNK": 54.54,
+      "HOS": 8.24,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 10.52,
+      "UNK": 84.61,
+      "HOS": 18.72,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 46.15,
+      "UNK": 5.26,
+      "HOS": 9.45,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 62.5,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 10.53,
+      "UNK": 91.63,
+      "HOS": 10.05,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 43.75,
+      "UNK": 6.25,
+      "HOS": 10.94,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 25.86,
+      "UNK": 27.32,
+      "HOS": 26.57,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 39.07,
+      "UNK": 27.06,
+      "HOS": 31.98,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 18.68,
+      "UNK": 34.66,
+      "HOS": 24.28,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 3.75,
+      "UNK": 91.32,
+      "HOS": 7.2,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 11.24,
+      "UNK": 77.68,
+      "HOS": 19.64,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "DAOD",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 12.74,
+      "UNK": 90.52,
+      "HOS": 22.34,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 23.54,
+      "UNK": 35.44,
+      "HOS": 28.29,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 15.45,
+      "UNK": 85.07,
+      "HOS": 26.15,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 24.46,
+      "UNK": 48.19,
+      "HOS": 32.45,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 4.85,
+      "UNK": 88.43,
+      "HOS": 9.19,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 1.93,
+      "UNK": 95.19,
+      "HOS": 3.79,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "ANNA",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 42.59,
+      "UNK": 15.91,
+      "HOS": 23.17,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 39.3,
+      "UNK": 0.8,
+      "HOS": 1.57,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 43.62,
+      "UNK": 0.83,
+      "HOS": 1.63,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 33.47,
+      "UNK": 6.23,
+      "HOS": 10.51,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 30.8,
+      "UNK": 40.41,
+      "HOS": 6.71,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 31.55,
+      "UNK": 8.6,
+      "HOS": 13.51,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "BCL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 41.02,
+      "UNK": 3.94,
+      "HOS": 7.19,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.83,
+      "UNK": 43.04,
+      "HOS": 35.95,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 18.36,
+      "UNK": 63.15,
+      "HOS": 28.44,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 23.53,
+      "UNK": 35.15,
+      "HOS": 28.25,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 22.77,
+      "UNK": 34.54,
+      "HOS": 27.43,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 27.21,
+      "UNK": 26.33,
+      "HOS": 26.71,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "UADAL",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 17.53,
+      "UNK": 33.52,
+      "HOS": 23.03,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 26.09,
+      "UNK": 41.54,
+      "HOS": 32.05,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 26.44,
+      "UNK": 60.66,
+      "HOS": 36.83,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 32.62,
+      "UNK": 39.56,
+      "HOS": 35.76,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 28.3,
+      "UNK": 27.82,
+      "HOS": 28.06,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 15.38,
+      "UNK": 59.36,
+      "HOS": 24.43,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "STIENet",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 25.52,
+      "UNK": 20.56,
+      "HOS": 22.77,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "M",
+      "OS_star": 34.35,
+      "UNK": 22.28,
+      "HOS": 27.03,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "E",
+      "OS_star": 31.7,
+      "UNK": 40.01,
+      "HOS": 35.37,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 32.62,
+      "UNK": 32.22,
+      "HOS": 32.42,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 28.06,
+      "UNK": 36.68,
+      "HOS": 31.8,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 30.42,
+      "UNK": 46.84,
+      "HOS": 36.89,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "egemaps",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 39.92,
+      "UNK": 58.83,
+      "HOS": 47.56,
+      "provenance": "Paper Appendix A6"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 32.17,
+      "UNK": 25.94,
+      "HOS": 28.72,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 39.58,
+      "UNK": 27.75,
+      "HOS": 32.62,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 27.95,
+      "UNK": 32.37,
+      "HOS": 30.0,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 0.6,
+      "UNK": 99.2,
+      "HOS": 1.2,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 1.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 0.15,
+      "UNK": 99.82,
+      "HOS": 0.29,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 46.51,
+      "UNK": 5.95,
+      "HOS": 10.55,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 52.14,
+      "UNK": 8.27,
+      "HOS": 14.27,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 38.16,
+      "UNK": 4.24,
+      "HOS": 7.63,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 44.58,
+      "UNK": 12.25,
+      "HOS": 19.21,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 61.29,
+      "UNK": 9.26,
+      "HOS": 16.09,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 40.06,
+      "UNK": 12.93,
+      "HOS": 19.55,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 18.15,
+      "UNK": 49.08,
+      "HOS": 26.5,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 0.13,
+      "UNK": 99.94,
+      "HOS": 0.26,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 32.21,
+      "UNK": 29.37,
+      "HOS": 30.73,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 11.03,
+      "UNK": 87.14,
+      "HOS": 19.59,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 0.84,
+      "UNK": 99.42,
+      "HOS": 1.66,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 30.46,
+      "UNK": 21.56,
+      "HOS": 25.24,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 18.25,
+      "UNK": 48.62,
+      "HOS": 26.55,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 11.72,
+      "UNK": 56.65,
+      "HOS": 19.42,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 9.89,
+      "UNK": 67.4,
+      "HOS": 17.24,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 11.06,
+      "UNK": 78.21,
+      "HOS": 19.39,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 19.24,
+      "UNK": 71.07,
+      "HOS": 30.29,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 15.69,
+      "UNK": 58.85,
+      "HOS": 24.78,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 39.32,
+      "UNK": 58.24,
+      "HOS": 46.95,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 36.74,
+      "UNK": 75.25,
+      "HOS": 49.38,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 19.08,
+      "UNK": 72.41,
+      "HOS": 30.2,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 31.44,
+      "UNK": 55.14,
+      "HOS": 40.04,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 56.73,
+      "UNK": 74.61,
+      "HOS": 64.45,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 27.89,
+      "UNK": 52.45,
+      "HOS": 36.42,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 33.7,
+      "UNK": 36.45,
+      "HOS": 35.02,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 42.22,
+      "UNK": 57.34,
+      "HOS": 48.63,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 35.75,
+      "UNK": 21.08,
+      "HOS": 26.52,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 46.89,
+      "UNK": 12.55,
+      "HOS": 19.8,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 72.8,
+      "UNK": 21.25,
+      "HOS": 32.89,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 35.5,
+      "UNK": 14.37,
+      "HOS": 20.45,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 28.86,
+      "UNK": 42.74,
+      "HOS": 34.59,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 42.65,
+      "UNK": 32.22,
+      "HOS": 36.77,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 32.37,
+      "UNK": 17.15,
+      "HOS": 22.41,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 32.82,
+      "UNK": 38.18,
+      "HOS": 35.19,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 44.71,
+      "UNK": 59.83,
+      "HOS": 51.23,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 28.21,
+      "UNK": 39.79,
+      "HOS": 33.14,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 30.07,
+      "UNK": 56.91,
+      "HOS": 39.35,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 40.47,
+      "UNK": 62.99,
+      "HOS": 49.28,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 26.88,
+      "UNK": 45.07,
+      "HOS": 33.68,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 28.27,
+      "UNK": 36.49,
+      "HOS": 31.86,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 32.91,
+      "UNK": 39.24,
+      "HOS": 35.8,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 27.49,
+      "UNK": 43.73,
+      "HOS": 33.76,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "E",
+      "OS_star": 44.12,
+      "UNK": 41.69,
+      "HOS": 42.87,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "C",
+      "OS_star": 65.88,
+      "UNK": 25.57,
+      "HOS": 36.84,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 34.43,
+      "UNK": 28.84,
+      "HOS": 31.39,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "M",
+      "OS_star": 46.0,
+      "UNK": 7.51,
+      "HOS": 12.91,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "C",
+      "OS_star": 66.93,
+      "UNK": 10.99,
+      "HOS": 18.89,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 42.98,
+      "UNK": 11.48,
+      "HOS": 18.12,
+      "provenance": "Paper Appendix A7"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 2.66,
+      "UNK": 93.35,
+      "HOS": 5.17,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.0,
+      "UNK": 99.9,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 13.75,
+      "UNK": 66.45,
+      "HOS": 22.79,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 15.25,
+      "UNK": 63.26,
+      "HOS": 24.58,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 5.14,
+      "UNK": 89.16,
+      "HOS": 9.72,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 26.44,
+      "UNK": 44.59,
+      "HOS": 33.19,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 45.22,
+      "UNK": 11.14,
+      "HOS": 17.87,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 45.9,
+      "UNK": 13.76,
+      "HOS": 21.17,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 34.25,
+      "UNK": 9.71,
+      "HOS": 15.13,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 44.31,
+      "UNK": 6.77,
+      "HOS": 11.74,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 49.99,
+      "UNK": 3.65,
+      "HOS": 6.8,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OSBP",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 41.44,
+      "UNK": 4.66,
+      "HOS": 8.37,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 23.85,
+      "UNK": 36.0,
+      "HOS": 28.69,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 61.66,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 18.71,
+      "UNK": 58.85,
+      "HOS": 28.39,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 0.72,
+      "UNK": 99.26,
+      "HOS": 1.43,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 19.03,
+      "UNK": 49.68,
+      "HOS": 27.52,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 38.19,
+      "UNK": 0.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 15.52,
+      "UNK": 72.12,
+      "HOS": 25.56,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.67,
+      "UNK": 96.43,
+      "HOS": 1.33,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 15.44,
+      "UNK": 51.64,
+      "HOS": 23.78,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 2.96,
+      "UNK": 92.8,
+      "HOS": 5.74,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 3.16,
+      "UNK": 94.04,
+      "HOS": 6.11,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "DAOD",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 9.21,
+      "UNK": 88.81,
+      "HOS": 16.69,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.34,
+      "UNK": 48.86,
+      "HOS": 37.43,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 39.45,
+      "UNK": 65.7,
+      "HOS": 49.3,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 21.44,
+      "UNK": 47.11,
+      "HOS": 29.47,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 28.04,
+      "UNK": 66.22,
+      "HOS": 39.4,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 35.1,
+      "UNK": 74.95,
+      "HOS": 47.81,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "ANNA",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 29.43,
+      "UNK": 71.38,
+      "HOS": 41.67,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 34.54,
+      "UNK": 25.79,
+      "HOS": 29.53,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 27.67,
+      "UNK": 33.34,
+      "HOS": 30.24,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 33.66,
+      "UNK": 22.54,
+      "HOS": 27.0,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 29.92,
+      "UNK": 48.06,
+      "HOS": 36.88,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 39.93,
+      "UNK": 37.54,
+      "HOS": 38.7,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "BCL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 36.01,
+      "UNK": 72.64,
+      "HOS": 48.15,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.07,
+      "UNK": 42.68,
+      "HOS": 35.14,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 38.26,
+      "UNK": 38.03,
+      "HOS": 38.1,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 22.82,
+      "UNK": 37.08,
+      "HOS": 28.15,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 33.29,
+      "UNK": 25.37,
+      "HOS": 28.74,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 33.21,
+      "UNK": 24.63,
+      "HOS": 28.27,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "UADAL",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 39.31,
+      "UNK": 34.69,
+      "HOS": 36.76,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.52,
+      "UNK": 46.4,
+      "HOS": 36.82,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 26.99,
+      "UNK": 43.84,
+      "HOS": 33.41,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 27.78,
+      "UNK": 44.13,
+      "HOS": 34.1,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 29.68,
+      "UNK": 37.54,
+      "HOS": 33.15,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 35.6,
+      "UNK": 53.85,
+      "HOS": 42.86,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "STIENet",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 29.79,
+      "UNK": 60.65,
+      "HOS": 39.96,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "M",
+      "OS_star": 47.13,
+      "UNK": 6.89,
+      "HOS": 12.03,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "E",
+      "OS_star": 59.99,
+      "UNK": 35.07,
+      "HOS": 31.99,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 47.18,
+      "UNK": 9.02,
+      "HOS": 15.15,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 38.08,
+      "UNK": 36.86,
+      "HOS": 37.46,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 49.88,
+      "UNK": 35.91,
+      "HOS": 41.76,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "wavlm",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 54.37,
+      "UNK": 33.98,
+      "HOS": 41.82,
+      "provenance": "Paper Appendix A8"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 32.17,
+      "UNK": 25.94,
+      "HOS": 28.72,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 39.58,
+      "UNK": 27.75,
+      "HOS": 32.62,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 27.95,
+      "UNK": 32.37,
+      "HOS": 30.0,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 0.6,
+      "UNK": 99.2,
+      "HOS": 1.2,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 0.0,
+      "UNK": 1.0,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 0.15,
+      "UNK": 99.82,
+      "HOS": 0.29,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 51.5,
+      "UNK": 5.26,
+      "HOS": 9.55,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 64.62,
+      "UNK": 6.53,
+      "HOS": 11.86,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 38.42,
+      "UNK": 8.58,
+      "HOS": 14.02,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 43.11,
+      "UNK": 18.83,
+      "HOS": 26.21,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 75.9,
+      "UNK": 7.08,
+      "HOS": 12.95,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 42.17,
+      "UNK": 9.93,
+      "HOS": 16.07,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 19.51,
+      "UNK": 48.87,
+      "HOS": 27.89,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 24.73,
+      "UNK": 75.01,
+      "HOS": 37.2,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 11.39,
+      "UNK": 75.92,
+      "HOS": 19.81,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 8.73,
+      "UNK": 91.2,
+      "HOS": 15.93,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 4.33,
+      "UNK": 98.76,
+      "HOS": 8.29,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 4.51,
+      "UNK": 91.98,
+      "HOS": 8.61,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 18.25,
+      "UNK": 48.62,
+      "HOS": 26.55,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 11.72,
+      "UNK": 56.65,
+      "HOS": 19.42,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 9.89,
+      "UNK": 67.4,
+      "HOS": 17.24,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 11.06,
+      "UNK": 78.21,
+      "HOS": 19.39,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 19.24,
+      "UNK": 71.07,
+      "HOS": 30.29,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 15.69,
+      "UNK": 58.85,
+      "HOS": 24.78,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 37.12,
+      "UNK": 49.3,
+      "HOS": 42.35,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 39.39,
+      "UNK": 83.62,
+      "HOS": 53.56,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 13.52,
+      "UNK": 77.29,
+      "HOS": 23.01,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 31.42,
+      "UNK": 52.43,
+      "HOS": 39.3,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 58.56,
+      "UNK": 62.37,
+      "HOS": 60.41,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 28.4,
+      "UNK": 45.26,
+      "HOS": 34.9,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 39.59,
+      "UNK": 45.94,
+      "HOS": 42.52,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 36.77,
+      "UNK": 46.43,
+      "HOS": 41.04,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 24.97,
+      "UNK": 40.54,
+      "HOS": 30.9,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 32.51,
+      "UNK": 18.71,
+      "HOS": 23.75,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 42.96,
+      "UNK": 8.9,
+      "HOS": 14.75,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 31.65,
+      "UNK": 12.73,
+      "HOS": 18.16,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 31.34,
+      "UNK": 40.19,
+      "HOS": 35.13,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 54.3,
+      "UNK": 24.02,
+      "HOS": 33.3,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 34.87,
+      "UNK": 15.5,
+      "HOS": 21.57,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 28.09,
+      "UNK": 43.74,
+      "HOS": 34.21,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 38.2,
+      "UNK": 61.65,
+      "HOS": 47.14,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 32.35,
+      "UNK": 28.63,
+      "HOS": 30.3,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 33.4,
+      "UNK": 40.37,
+      "HOS": 36.55,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 50.12,
+      "UNK": 66.71,
+      "HOS": 57.24,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 32.96,
+      "UNK": 46.69,
+      "HOS": 38.64,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 32.36,
+      "UNK": 50.95,
+      "HOS": 39.58,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 49.02,
+      "UNK": 76.03,
+      "HOS": 59.6,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 29.78,
+      "UNK": 46.93,
+      "HOS": 36.44,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "M",
+      "target": "E",
+      "OS_star": 49.16,
+      "UNK": 20.91,
+      "HOS": 29.34,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "M",
+      "target": "C",
+      "OS_star": 60.58,
+      "UNK": 35.13,
+      "HOS": 44.47,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "M",
+      "target": "Me",
+      "OS_star": 33.69,
+      "UNK": 35.43,
+      "HOS": 34.54,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "E",
+      "target": "M",
+      "OS_star": 48.14,
+      "UNK": 4.92,
+      "HOS": 8.93,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "E",
+      "target": "C",
+      "OS_star": 68.4,
+      "UNK": 17.99,
+      "HOS": 28.49,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "E",
+      "target": "Me",
+      "OS_star": 42.74,
+      "UNK": 14.27,
+      "HOS": 21.39,
+      "provenance": "Paper Appendix A9"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 2.66,
+      "UNK": 93.35,
+      "HOS": 5.17,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.0,
+      "UNK": 99.9,
+      "HOS": 0.0,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 13.75,
+      "UNK": 66.45,
+      "HOS": 22.79,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 15.25,
+      "UNK": 63.26,
+      "HOS": 24.58,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 5.14,
+      "UNK": 89.16,
+      "HOS": 9.72,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OCSVM",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 26.44,
+      "UNK": 44.59,
+      "HOS": 33.19,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 48.93,
+      "UNK": 13.54,
+      "HOS": 21.21,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 61.42,
+      "UNK": 12.34,
+      "HOS": 20.56,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 36.77,
+      "UNK": 16.81,
+      "HOS": 23.07,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 46.34,
+      "UNK": 1.29,
+      "HOS": 2.51,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 56.12,
+      "UNK": 6.18,
+      "HOS": 11.13,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "OSBP",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 53.97,
+      "UNK": 8.79,
+      "HOS": 15.12,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 39.3,
+      "UNK": 21.11,
+      "HOS": 27.47,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 17.3,
+      "UNK": 86.14,
+      "HOS": 28.81,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 36.59,
+      "UNK": 20.32,
+      "HOS": 26.13,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 4.37,
+      "UNK": 92.31,
+      "HOS": 8.34,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 18.68,
+      "UNK": 47.03,
+      "HOS": 26.74,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 12.3,
+      "UNK": 76.77,
+      "HOS": 21.2,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 15.52,
+      "UNK": 72.12,
+      "HOS": 25.56,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 0.67,
+      "UNK": 96.43,
+      "HOS": 1.33,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 15.44,
+      "UNK": 51.64,
+      "HOS": 23.78,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 2.96,
+      "UNK": 92.8,
+      "HOS": 5.74,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 3.16,
+      "UNK": 94.04,
+      "HOS": 6.11,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "DAOD",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 9.21,
+      "UNK": 88.81,
+      "HOS": 16.69,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 33.67,
+      "UNK": 38.65,
+      "HOS": 35.99,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 48.24,
+      "UNK": 62.88,
+      "HOS": 54.6,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 24.6,
+      "UNK": 47.49,
+      "HOS": 32.41,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 27.75,
+      "UNK": 61.17,
+      "HOS": 38.18,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 45.75,
+      "UNK": 58.96,
+      "HOS": 51.52,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "ANNA",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 23.52,
+      "UNK": 73.32,
+      "HOS": 35.62,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 44.29,
+      "UNK": 16.49,
+      "HOS": 24.04,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 74.12,
+      "UNK": 10.96,
+      "HOS": 19.1,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 32.41,
+      "UNK": 29.37,
+      "HOS": 30.82,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 44.38,
+      "UNK": 8.06,
+      "HOS": 13.64,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 47.29,
+      "UNK": 26.15,
+      "HOS": 33.68,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "BCL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 47.84,
+      "UNK": 18.38,
+      "HOS": 26.56,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 32.04,
+      "UNK": 45.33,
+      "HOS": 37.5,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 48.64,
+      "UNK": 54.47,
+      "HOS": 51.39,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 30.55,
+      "UNK": 33.9,
+      "HOS": 32.17,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 40.4,
+      "UNK": 14.08,
+      "HOS": 20.89,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 40.84,
+      "UNK": 24.67,
+      "HOS": 30.87,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "UADAL",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 49.75,
+      "UNK": 13.11,
+      "HOS": 20.67,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 30.62,
+      "UNK": 50.34,
+      "HOS": 38.08,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 58.17,
+      "UNK": 64.34,
+      "HOS": 61.1,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 33.21,
+      "UNK": 42.09,
+      "HOS": 37.12,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 24.47,
+      "UNK": 46.58,
+      "HOS": 32.09,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 15.38,
+      "UNK": 59.36,
+      "HOS": 24.43,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "STIENet",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 25.52,
+      "UNK": 20.56,
+      "HOS": 22.77,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "C",
+      "target": "M",
+      "OS_star": 47.06,
+      "UNK": 6.77,
+      "HOS": 11.84,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "C",
+      "target": "E",
+      "OS_star": 80.94,
+      "UNK": 7.54,
+      "HOS": 13.79,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "C",
+      "target": "Me",
+      "OS_star": 43.91,
+      "UNK": 8.45,
+      "HOS": 14.18,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "M",
+      "OS_star": 40.74,
+      "UNK": 31.45,
+      "HOS": 35.49,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "E",
+      "OS_star": 56.46,
+      "UNK": 30.38,
+      "HOS": 39.5,
+      "provenance": "Paper Appendix A10"
+    },
+    {
+      "method": "SDEOTR",
+      "feature": "hubert",
+      "source": "Me",
+      "target": "C",
+      "OS_star": 54.63,
+      "UNK": 35.05,
+      "HOS": 42.7,
+      "provenance": "Paper Appendix A10"
+    }
+  ],
+  "hos_discrepancies": 36
+}
