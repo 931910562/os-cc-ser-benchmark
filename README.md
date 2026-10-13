@@ -1,7 +1,7 @@
 # Open-Set Cross-Corpus Speech Emotion Recognition
 
 **A Unified Benchmark and Systematic Analysis**  
-开放集跨语料库语音情感识别：统一评测基准与系统分析
+Benchmark protocol, implementations, offline features and manuscript results.
 
 [Project page](https://931910562.github.io/os-cc-ser-benchmark/) · [Code and feature packages](https://github.com/931910562/os-cc-ser-benchmark/releases/tag/v0.1)
 
